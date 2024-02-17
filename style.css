@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('/assets/wave.svg');
+  width: 100%;
+  height: 100vh;
+  background-position: bottom;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  margin: auto;
+  width: 400px;
+  height: 250px;
+  background: url('https://picsum.photos/400/250/?blur=4');
+  border-radius: 8px;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+}
+#inputContainer {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#eyeImage {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
